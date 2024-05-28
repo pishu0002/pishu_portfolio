@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       case "project1":
         projectDetailsContainer.innerHTML = `
           <div>
-            <img src="./assets/project-1-details.png" alt="Project 1 Details" />
+          <img src="./assets/project-1-img.jpeg" alt="Project 1 Details" style="width:100%;height:auto;" />
             <h2>Agri Multiway Analyzer (ML/DL)</h2>
             <p>This project provides the farmer with two things: a correct and accurate prediction of crop sustainability in the given area, and fertilizer suggestions for the crops by disease detection.</p>
             <p><strong>Tech stack:</strong> Machine learning, Deep learning</p>
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
       case "project2":
         projectDetailsContainer.innerHTML = `
           <div>
-            <img src="./assets/project-2-details.png" alt="Project 2 Details" />
+          <img src="./assets/project-2-img.jpeg" alt="Project 2 Details" style="width:100%;height:auto;" />
             <h2>Comment Toxicity Detection</h2>
             <p>This model spots and detects toxic comments using deep learning and Python. These comments are classified based on the vectorized score of the comment.</p>
             <p><strong>Tech stack:</strong> Deep learning</p>
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
       case "project3":
         projectDetailsContainer.innerHTML = `
           <div>
-            <img src="./assets/project-3-details.png" alt="Project 3 Details" />
+          <img src="./assets/project-3-img.webp" alt="Project 3 Details" style="width:100%;height:auto;" />
             <h2>E-KYC Using Blockchain Technology</h2>
             <p>A blockchain-based application in the banking sector to update the customer's KYC details in the blockchain network. Banks in the network can access customer details from the distributed ledger.</p>
             <p><strong>Tech stack:</strong> Ganache, Metamask</p>
