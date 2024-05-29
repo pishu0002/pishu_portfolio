@@ -64,8 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
           </div>
         `;
         break;
-      default:
-        projectDetailsContainer.innerHTML = "<p>No details available</p>";
     }
   }
 });

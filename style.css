@@ -8,8 +8,12 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif;  
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+  background-repeat: repeat;           
+  background-size: cover;          
+}     
 
 html {
   scroll-behavior: smooth;
@@ -379,6 +383,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+.company-btn {
+  color: black;
+  border-color: rgb(163, 163, 163); 
 }
 
 /* INTERNSHIP SECTION */
